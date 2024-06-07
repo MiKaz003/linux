@@ -1,0 +1,38 @@
+michal@michal:~/Pulpit/Workspace/Zadanie$ cat selected.txt commands.txt 
+299
+174:root
+180:root
+198:michal
+199:michal
+200:michal
+201:michal
+214:michal
+237:michal
+264:michal
+  459  mkdir Zadanie
+  460  cd Zadanie
+  461  touch processes.txt
+  462  ps aux << processes.txt 
+  463  clear
+  464  ps aux >> processes.txt 
+  465  cp processes.txt copy.txt
+  466  mkdir backup
+  467  mv copy.txt backup
+  468  cat processes.txt 
+  469  clear
+  470  wc -l processes.txt 
+  471  echo 299 >> selected.txt
+  472  ls
+  473  grep -rni /bin processes.txt 
+  474  grep -rni /bin processes.txt | awk
+  475  grep -rni /bin processes.txt | awk '{print $1}'
+  476  grep -rni /bin processes.txt | awk '{print $1}' << selected.txt 
+  477  grep -rni /bin processes.txt | awk '{print $1}' >> selected.txt 
+  478  history
+  479  history tail -n19
+  480  history tail 19
+  481  man tail
+  482  history tail 
+  483  history | tail 
+  484  history | tail -n19
+  485  history | tail -n27 >> commands.txt
