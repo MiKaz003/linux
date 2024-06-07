@@ -1,38 +1,22 @@
-michal@michal:~/Pulpit/Workspace/Zadanie$ cat selected.txt commands.txt 
-299
-174:root
-180:root
-198:michal
-199:michal
-200:michal
-201:michal
-214:michal
-237:michal
-264:michal
-  459  mkdir Zadanie
-  460  cd Zadanie
-  461  touch processes.txt
-  462  ps aux << processes.txt 
-  463  clear
-  464  ps aux >> processes.txt 
-  465  cp processes.txt copy.txt
-  466  mkdir backup
-  467  mv copy.txt backup
-  468  cat processes.txt 
-  469  clear
-  470  wc -l processes.txt 
-  471  echo 299 >> selected.txt
-  472  ls
-  473  grep -rni /bin processes.txt 
-  474  grep -rni /bin processes.txt | awk
-  475  grep -rni /bin processes.txt | awk '{print $1}'
-  476  grep -rni /bin processes.txt | awk '{print $1}' << selected.txt 
-  477  grep -rni /bin processes.txt | awk '{print $1}' >> selected.txt 
-  478  history
-  479  history tail -n19
-  480  history tail 19
-  481  man tail
-  482  history tail 
-  483  history | tail 
-  484  history | tail -n19
-  485  history | tail -n27 >> commands.txt
+
+michal@michal:~/Pulpit/Workspace$ cat selected.txt commands.txt 
+298 processes.txt
+170:root         866  0.0  0.1  43568 21288 ?        Ss   20:09   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+176:root         875  0.3  0.0 185196 14776 ?        Ssl  20:09   0:08 /usr/bin/touchegg --daemon
+194:michal      1295  0.0  0.0  41820  6100 ?        S<sl 20:10   0:00 /usr/bin/pipewire
+195:michal      1296  0.0  0.1 1502564 31612 ?       S<sl 20:10   0:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+196:michal      1299  0.0  0.0 243636  7688 ?        Sl   20:10   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+197:michal      1302  0.0  0.0   9296  5520 ?        Ss   20:10   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+210:michal      1541  0.0  0.0   8564  4624 ?        S    20:10   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+233:michal      1727  0.0  0.3 417784 59784 ?        Sl   20:10   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+260:michal      2620  0.0  0.2  62948 34040 ?        S    20:11   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+  491  mkdir Zadanie
+  492  touch processes.txt
+  493  ps aux >> processes.txt 
+  494  cp processes.txt copy.txt
+  495  mkdir backup
+  496  mv copy.txt backup
+  497  wc -l processes.txt >> selected.txt
+  498  grep -n /bin processes.txt >> selected.txt 
+  499  history
+  500  history | tail >> commands.txt
