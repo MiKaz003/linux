@@ -20,4 +20,4 @@ michal@michal:~/Pulpit/Workspace/homework$ cat selected.txt commands.txt
   525  grep -n /bin processes.txt >> selected.txt 
   526  history
   527  history | tail -n +517
-  528  history | tail -n +517 >> commands.txt
+  528  history | tail -n +517 > commands.txt
