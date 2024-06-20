@@ -1,0 +1,177 @@
+[33mcommit afbde712c97b40e9b879c4b12fd71e9c8b9357a0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: MiKaz003 <ghmkazmierczak@gmail.com>
+Date:   Tue Jun 18 22:20:13 2024 +0200
+
+    Commit Testowy
+
+[33mcommit a19427caeec6392c05d746def555149ccca7c991[m
+Author: MiKaz003 <ghmkazmierczak@gmail.com>
+Date:   Tue Jun 18 01:28:31 2024 +0200
+
+    1st comit
+
+[33mcommit d0e8989ea0b9056057749571c8d47e5d0f12a1f6[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Thu Aug 3 16:36:38 2023 +0200
+
+     Update check.sh to accept stdin to wc and appending (#244)
+    
+    * Create 10.txt
+    * Update tests.sh
+    * Update check.sh
+
+[33mcommit 682632692468f421d168f091b1c980afbf27fd01[m
+Merge: f330b03 3f4caec
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Tue Jun 21 08:52:02 2022 +0200
+
+    Merge pull request #186 from coders-school/add-license-1
+    
+    Create LICENSE.md
+    
+    Closes #185
+
+[33mcommit 3f4caec3846efa26498420fbdaeb6ce3291eee65[m[33m ([m[1;31morigin/add-license-1[m[33m)[m
+Author: Andrzej Rafalski <anraf1001@gmail.com>
+Date:   Sun Jun 19 19:29:50 2022 +0200
+
+    Create LICENSE.md
+
+[33mcommit f330b030d2ab18e17acbd518e1a9293a279ea660[m
+Author: Andrzej Rafalski <anraf1001@gmail.com>
+Date:   Sun Jun 19 19:26:34 2022 +0200
+
+    Delete LICENSE.md
+
+[33mcommit ae2a9e19f65641ca256dfed1c6c71923f43f1c0d[m
+Author: Andrzej Rafalski <anraf1001@gmail.com>
+Date:   Sun Jun 19 19:20:20 2022 +0200
+
+    Create LICENSE.md
+
+[33mcommit 4e2674985fef62a524e3dc66a858430d5bcc11d1[m
+Author: Penthurion <68010070+Penthurion@users.noreply.github.com>
+Date:   Thu Jan 27 14:14:44 2022 +0100
+
+    removed debugging
+
+[33mcommit e89bc497390cbaca78bed6a5a49f24407f5e425f[m
+Author: Penthurion <68010070+Penthurion@users.noreply.github.com>
+Date:   Thu Jan 27 14:12:34 2022 +0100
+
+    Update check.sh
+
+[33mcommit 23ed9c0ccaa015db8eb2c2a24cf46beaf5d22cfa[m
+Author: Penthurion <68010070+Penthurion@users.noreply.github.com>
+Date:   Thu Jan 27 13:07:48 2022 +0100
+
+    check.sh update
+
+[33mcommit 423d0e82f59864e3a1588f22b9e6086cafb57825[m
+Author: Penthurion <68010070+Penthurion@users.noreply.github.com>
+Date:   Sat Jan 22 09:40:58 2022 +0100
+
+    Update check.sh
+
+[33mcommit 82ad1c0cf349525031143c7bfe13548cea0b70bc[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Mon Jan 3 12:58:08 2022 +0100
+
+    Update check.sh
+
+[33mcommit cc186bd8710efc2ddeaf8c1592fe7be91edcff36[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Tue May 4 09:21:20 2021 +0200
+
+    Small correction for 29f7ceccb1291f1d6ed9d5c8a5a9fa7248d82074
+
+[33mcommit 936c605a2e19048e531e881c6aca606cd198cfbe[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Tue May 4 09:14:10 2021 +0200
+
+    Fixed #121
+
+[33mcommit f232a191fb338417419b41a0aeb9df4230cf3715[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Tue May 4 08:55:18 2021 +0200
+
+    Typo fixed #106
+
+[33mcommit 29f7ceccb1291f1d6ed9d5c8a5a9fa7248d82074[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Tue May 4 08:54:12 2021 +0200
+
+    Fixed #107 and #92
+
+[33mcommit 181c3e4ca59d253431e1613b7c49df86b98d7897[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Wed Apr 28 12:45:52 2021 +0200
+
+    Fix for #41 and #37
+
+[33mcommit f12685060ed8bd2e108c2dc19d21ecfd3d454767[m
+Merge: b29dc72 8878c3b
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Tue Apr 27 09:00:53 2021 +0200
+
+    Merge branch 'master' of https://github.com/coders-school/linux
+
+[33mcommit b29dc722f4eca54f8224660f94e47805e35f1125[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Tue Apr 27 09:00:48 2021 +0200
+
+    update about "Approve and Run"
+
+[33mcommit 8878c3b28667d8263e991cc97c780989de95a557[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Fri Apr 23 23:28:41 2021 +0200
+
+    Fix in detecting move of copy.txt to backup
+
+[33mcommit 5a484ca27e39a675133e7779e3bed144713e29d6[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Fri Apr 23 21:48:24 2021 +0200
+
+    Pattern for grep updated to pass queries with quote marks and apostrophes
+
+[33mcommit c338a9f3f819f818e0134807ae86d5fd022b5dda[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Sun Apr 18 17:42:17 2021 +0200
+
+    Small grammar fix
+
+[33mcommit 2411e9ad2aefddbf15947e0f323d203a524e8a79[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Sun Apr 18 17:28:21 2021 +0200
+
+    Homework instructions added
+
+[33mcommit df10a7641677fa5b48ca4f3cb5bf65dad4bab899[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Sun Apr 18 17:21:00 2021 +0200
+
+    Fixing #2 Bug in regex
+
+[33mcommit 8a2e03be6a4840730501c64cb7037c2fe4c3b65e[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Sun Apr 18 16:50:01 2021 +0200
+
+    CI fix
+
+[33mcommit c273cf143370ee94fce84690bf806d8fce63744e[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Sun Apr 18 16:43:38 2021 +0200
+
+    macos-latest runner removed. Seems to be unreachable.
+
+[33mcommit 48128429cccf6ba524396597d53ad167445b0c98[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Sun Apr 18 16:41:35 2021 +0200
+
+    CI ready
+
+[33mcommit 1476d8a4a790426123454bfd337f90012ef66178[m
+Author: Łukasz Ziobroń <lukasz@coders.school>
+Date:   Sat Apr 17 19:29:05 2021 +0200
+
+    Lessons content
