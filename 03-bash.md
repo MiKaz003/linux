@@ -11,4 +11,3 @@
 * Strzałki góra/dół - wyświetl poprzednią/następną komendę z historii
 * Ctrl + R - szukaj w historii wpisanych komend
 
-Some change
