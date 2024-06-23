@@ -1,0 +1,23 @@
+michal@michal:~/Pulpit/Workspace/homework$ cat selected.txt commands.txt 
+291 processes.txt
+166:root         866  0.0  0.1  43568 21288 ?        Ss   20:09   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+172:root         875  0.3  0.0 185196 14776 ?        Ssl  20:09   0:14 /usr/bin/touchegg --daemon
+190:michal      1295  0.0  0.0  41820  6100 ?        S<sl 20:10   0:00 /usr/bin/pipewire
+191:michal      1296  0.0  0.1 1502564 31620 ?       S<sl 20:10   0:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+192:michal      1299  0.0  0.0 243636  7688 ?        Sl   20:10   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+193:michal      1302  0.0  0.0   9432  5520 ?        Ss   20:10   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+206:michal      1541  0.0  0.0   8564  4624 ?        S    20:10   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+229:michal      1727  0.0  0.3 417784 59784 ?        Sl   20:10   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+256:michal      2620  0.0  0.2  62948 34040 ?        S    20:11   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+  517  mkdir homework
+  518  cd homework/
+  519  touch processes.txt
+  520  ps aux >> processes.txt 
+  521  cp processes.txt copy.txt
+  522  mkdir backup
+  523  mv copy.txt backup/
+  524  wc -l processes.txt >> selected.txt
+  525  grep -n /bin processes.txt >> selected.txt 
+  526  history
+  527  history | tail -n +517
+  528  history | tail -n +517 > commands.txt
